@@ -75,7 +75,7 @@ class scanner {
 
     private:
         std::string input;    // input line that is tokenized
-        int idx;         // current position in string
+        unsigned int idx;         // current position in string
         float num_value; // value of number token
         std::string id_value; // value of identifier token
 };
